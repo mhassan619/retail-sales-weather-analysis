@@ -1,20 +1,3 @@
-"""
-This script creates two GitHub-ready files for the "Retail Sales & Weather Insights" project:
-
-1) `Retail_Sales_Weather_Project.ipynb` - a Jupyter notebook ready to upload to GitHub.
-2) `README.md` - a project README suitable for the repo front page.
-
-Run this script in your local machine (or copy/paste cells into a new notebook). It will write both files to the current directory.
-
-Files produced contain: dataset creation (if you don't have CSV), full analysis (Pandas), Matplotlib plots saved to ./plots, and final insights.
-
-NOTE: This is a generator script. After running it, open the produced `.ipynb` in Jupyter/VS Code to run cells interactively.
-"""
-
-import json
-import nbformat
-from nbformat.v4 import new_notebook, new_code_cell, new_markdown_cell
-
 # README content (markdown)
 README = r"""
 # Retail Sales & Weather Insights
